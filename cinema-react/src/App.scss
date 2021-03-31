@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.logo{
+  height: 160px;
+  width: 160px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  position: fixed;
+  width: 100%;
+ background-image:url(./images/shapka.jpg);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header__inner{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header__menu-link{
+  text-decoration: none;
+  color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header__menu-link:hover{
+  color: blue;
+  cursor: pointer;
+}
+.header__menu-list{
+  display: flex;
+  align-items: center;
+ }
+ .header__menu-item{
+  margin-right: 61px;
+  font-size: 23px;
+  list-style-type: none; 
+  line-height: 60px; 
+}
+.header__menu-sign-up,.header__menu-sign-in{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  outline:none;
+  border-radius: 8px;
+  border: 2px solid red;
+  padding: 12px 13px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .text__button{
+  color:black;
+  font-size: 25px; 
+ }
+ .header__menu-sign-in:hover,.header__menu-sign-up:hover{
+  background-color:orange ; 
+ }
+
+ .header__menu-sign-in:active,.header__menu-sign-up:active{
+  background-color:fuchsia ; 
+ }
