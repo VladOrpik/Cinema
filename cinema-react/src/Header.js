@@ -12,11 +12,11 @@ function Header(){
             <nav className="header__menu">
               <ul className="header__menu-list">
                 <li className="header__menu-item">
-                  <a  href="Афиша"className="header__menu-link">Афиша</a></li>
+                  <a  href="Afisha"className="header__menu-link">Афиша</a></li>
                 <li className="header__menu-item">
-                  <a href="Кинотеатры" className="header__menu-link">Кинотеатры</a></li>
+                  <a href="Cinemas" className="header__menu-link">Кинотеатры</a></li>
                 <li className="header__menu-item">
-                  <a href="Инфо" className="header__menu-link">Инфо</a></li>
+                  <a href="Info" className="header__menu-link">Инфо</a></li>
                 <li className="header__menu-item">
                   <button className="header__menu-sign-in"><span className="text__button">Sign in</span></button>
                 </li>

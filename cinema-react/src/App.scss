@@ -3,9 +3,9 @@
   width: 160px;
 }
 header{
-  position: fixed;
+  position: relative;
   width: 100%;
- background-image:url(./images/shapka.jpg);
+ background-color: black;
 }
 .wrapper{
   max-width: 1200px;
@@ -18,7 +18,7 @@ header{
 }
 .header__menu-link{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .header__menu-link:hover{
   color: blue;
@@ -44,7 +44,7 @@ header{
   padding: 12px 13px;
   }
  .text__button{
-  color:black;
+  color:white;
   font-size: 25px; 
  }
  .header__menu-sign-in:hover,.header__menu-sign-up:hover{
@@ -54,3 +54,9 @@ header{
  .header__menu-sign-in:active,.header__menu-sign-up:active{
   background-color:fuchsia ; 
  }
+ .q1{
+   background-color: blue;
+   width: 25px;
+   height: 23px;
+ }
+ 
