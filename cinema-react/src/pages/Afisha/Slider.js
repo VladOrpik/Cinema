@@ -6,6 +6,8 @@ function Slider(){
     return(
      <div className="container">
          <div className="carousel">
+//         у input'a нет закрывающего тега, он самозакрывающийся: <input /> не <input></input>
+//         здесь можно бы было пойти дальше и сделать вывод в цикле, пробегаясь по массиву, также и ниже, т.е. массив слайдов (слайд в виде объекта)
              <input type="radio" id="carousel-1" name="carousel[]"checked></input>
              <input type="radio" id="carousel-2" name="carousel[]"checked></input>
              <input type="radio" id="carousel-3" name="carousel[]"checked></input>
