@@ -21,7 +21,7 @@ header{
   color: white;
 }
 .header__menu-link:hover{
-  color: blue;
+  color: orange;
   cursor: pointer;
 }
 .header__menu-list{
@@ -49,6 +49,7 @@ header{
  }
  .header__menu-sign-in:hover,.header__menu-sign-up:hover{
   background-color:orange ; 
+  cursor: pointer;
  }
 
  .header__menu-sign-in:active,.header__menu-sign-up:active{
