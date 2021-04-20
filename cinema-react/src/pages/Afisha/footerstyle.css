@@ -1,0 +1,44 @@
+.footer{
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 650px;
+    width: 100%;
+  }
+  .wrappers{
+    max-width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 150px;
+   
+  }
+  .footer__menu-list{
+    display: flex;
+    
+   
+  }
+  .footer__item{
+    margin-right: 86px;
+   
+   }
+   .footer__item:last-child{
+    margin-right: 0px;
+  }
+  .footer__menu-link{
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+  }
+  .footer__contacts-list{
+    display: flex;
+  }
+  .footer__item-img{
+    margin-right: 27px;
+  }
+  .footer__item-img:last-child{
+    margin-right: 0px;
+  }
