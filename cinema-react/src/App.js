@@ -5,6 +5,7 @@ import Header from './Header';
 import Afisha from './pages/Afisha/Afisha.js';
 import Cinemas from './pages/Cinemas/cinemas.js';
 import Info from './pages/Info/info.js';
+import Footer from '../src/pages/Afisha/footer.js';
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,6 +19,7 @@ function App() {
      <Router>
      <div className="App">
      <Header/>
+     
       <div>
         <nav>
        
@@ -34,6 +36,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer/>
       </div>
     </Router>
       

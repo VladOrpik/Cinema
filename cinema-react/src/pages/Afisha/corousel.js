@@ -1,25 +1,15 @@
-import "../Afisha/corouselstyle.css";
+import "../Afisha/corouselstyle.scss";
 
 function corousel(){
     return(
-            <div>
-                <h4>Сейчас в кино</h4>
+       <div>
+           <div className="text__under">
+               
+           </div>
+       </div>
+      
             
-        <div className="container" >
-            <div className="carousel">
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-                <div className="carousel__face"></div>
-    </div>
-        </div>
-        </div>
-        
+       
     )
 }
 

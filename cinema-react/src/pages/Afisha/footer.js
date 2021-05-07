@@ -1,58 +1,34 @@
 import './footerstyle.css';
-import logo from '/Cinema/cinema-react/src/images/logo.jpg';
-import insta from './img/insta.png';
-import fb from './img/fb.png';
-import pt from './img/pt.png';
-import tg from './img/tg.png';
+
 
 
 function footer(){
 
     return(
-        <footer className="footer">
-            <div className="wrappers">
-                <nav className="footer__menu">
-                    <ul className="footer__menu-list">
-                        <li className="footer__item">
-                            <a href="#" className="footer__menu-link">About us</a>
-                        </li>
-                        <li className="footer__item">
-                            <a href="#" className="footer__menu-link">Contact us</a>
-                        </li>
-                        <li className="footer__item">
-                            <a href="#" className="footer__menu-link">Press</a>
-                        </li>
-                        <li className="footer__item">
-                            <a href="#" className="footer__menu-link">FAQS</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div className="footer__contacts">
-                    <ul className="footer__contacts-list">
-                        <li className="footer__item-img">
-                            <a href="#" className="footer__contacrs-link">
-                            <img className="insta" src={insta} alt="insta-img" />
-                            </a>
-                        </li>
-                        <li className="footer__item-img">
-                            <a href="#" className="footer__contacrs-link">
-                            <img className="fb" src={fb} alt="fb-img" />
-                            </a>
-                        </li>
-                        <li className="footer__item-img">
-                            <a href="#" className="footer__contacrs-link">
-                            <img className="pt" src={pt} alt="pt-img" />
-                            </a>
-                        </li>
-                        <li className="footer__item-img">
-                            <a href="#" className="footer__contacrs-link">
-                            <img className="tg" src={tg} alt="tg-img" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <div>
+ <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-3">
+              <div class="footer-site-info">2021 ©</div>
             </div>
-        </footer>
+
+            <div class="col-md-6">
+              <nav class="footer-navigation">
+                <ul id="footer-menu" class="nav-menu">
+                  <li id="menu-item-26" class="menu-item "><a className="link" href="#">Support</a></li>
+                  <li id="menu-item-27" class="menu-item "><a className="link" href="#">Contact Us</a></li>
+                  <li id="menu-item-28" class="menu-item "><a className="link" href="#">Disclaimer</a></li>
+                  <li id="menu-item-29" class="menu-item "><a className="link" href="#">Add more</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+   
     )
 }
 

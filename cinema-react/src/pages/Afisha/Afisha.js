@@ -6,8 +6,6 @@ function Afisha() {
     return (
       <div>
         <Slider/>
-        <Corousel/> 
-        <Footer/>
       </div>
     
     );

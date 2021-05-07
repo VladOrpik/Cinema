@@ -5,7 +5,7 @@
   -moz-box-sizing: border-box;
 }
 * {margin:0;padding:0;border: 0 none;position: relative;}
-[class*="entypo-"]:before {font-family: 'entypo', sans-serif; display: inline-block; margin-right: .5rem;}
+[className*="entypo-"]:before {font-family: 'entypo', sans-serif; display: inline-block; margin-right: .5rem;}
 
 
 .slider__item{

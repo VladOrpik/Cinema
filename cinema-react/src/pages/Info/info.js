@@ -1,6 +1,14 @@
 import '../Info/infostyle.css'
+import './film-cards.js';
+import Filmcards from './film-cards.js';
+
 function Info() {
-    return <h2>Info</h2>;
+    return (
+      <div>
+        <Filmcards/>
+      </div>
+      
+    );
   }
 
 
